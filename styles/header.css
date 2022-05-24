@@ -1,0 +1,117 @@
+header {
+    width: 100vw;
+    height: 133px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background-color: rgba(36, 42, 53, 0.5);
+    border-bottom: 2.1px solid var(--color_16);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav div {
+    display: flex;
+    flex-direction: row;
+}
+
+.topNav {
+    height: 50px;
+    border-bottom: 1px solid var(--color_16);
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: var(--color_16);
+}
+
+.search ion-icon {
+    margin-right: 15px;
+}
+
+.login {
+    width: 84px;
+    display: flex;
+    align-items: center;
+    color: var(--color_16);
+    margin-right: 47px;
+    font-size: 18px;
+}
+
+.login ion-icon {
+    font-size: 28px;
+    margin-right: 10px;
+}
+
+.login p {
+    font-family: 'brandon-light';
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    color: var(--color_16);
+    font-size: 25px;
+}
+
+.bottomNav {
+    height: 76px;
+    border-bottom: 1px solid var(--color_16);
+}
+
+h1 {
+    font-family: 'Brandon-light';
+    font-size: 22px;
+    color: var(--color_16);
+}
+
+.title {
+    width: 200px;
+    height: 77px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--color_16);
+}
+
+
+.menu, .socialMedia {
+    width: 450px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    font-family: 'Brandon';
+}
+
+.menu {
+    justify-content: flex-start;
+}
+
+.socialMedia {
+    justify-content: flex-end;
+    margin-right: 18px;
+}
+
+.menu p {
+    font-size: 15px;
+    color: var(--color_16);
+    margin-right: 25px;
+    font-family: 'Avenir';
+}
+
+
+.socialMedia ion-icon {
+    font-size: 23px;
+    color: var(--color_16);
+    margin-left: 22px;
+}

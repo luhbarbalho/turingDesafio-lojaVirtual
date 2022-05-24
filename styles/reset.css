@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Josefin+Slab:wght@100;200;300&family=Jura:wght@300;400;500&family=Koulen&family=Libre+Bodoni:wght@400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Nunito:wght@200;300;400;500;600;700;800;900&family=Outfit:wght@600;800;900&family=Rajdhani:wght@300;400&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: 'Brandon';
+}
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --color_0: rgba(255, 255, 255, 0);
+    --color_1: rgb(255,255,255);
+    --color_2: rgb(0,0,0);
+    --color_3: rgb(237,28,36);
+    --color_4: rgb(0,136,203);
+    --color_5: rgb(255,203,5);
+    --color_6: rgb(114,114,114);
+    --color_7: rgb(176,176,176);
+    --color_8: rgb(255,255,255);
+    --color_9: rgb(114,114,114);
+    --color_10: rgb(176,176,176);
+    --color_11: rgb(255,255,255);
+    --color_12: rgb(230,231,234);
+    --color_13: rgb(191,191,191);
+    --color_14: rgb(125,124,124);
+    --color_15: rgb(65,65,65);
+    --color_16: rgb(219,231,255);
+    --color_17: rgb(155,181,232);
+    --color_18: rgb(104,127,173);
+    --color_19: rgb(65,75,95);
+    --color_20: rgb(36,42,53);
+    --color_21: rgb(196,228,210);
+    --color_22: rgb(158,200,177);
+    --color_23: rgb(100,173,133);
+    --color_24: rgb(67,115,89);
+    --color_25: rgb(33,58,44);
+    --color_26: rgb(235,218,178);
+    --color_27: rgb(214,184,110);
+    --color_28: rgb(161,138,83);
+    --color_29: rgb(107,92,55);
+    --color_30: rgb(54,46,28);
+    --color_31: rgb(202,181,210);
+    --color_32: rgb(156,131,165);
+    --color_33: rgb(107,70,120);
+    --color_34: rgb(71,47,80);
+    --color_35: rgb(36,23,40);
+
+
+    --font_0: normal normal normal 20px/1.4em brandon-grot-w01-light,brandon-grot-w05-light,sans-serif;
+    --font_1: normal normal normal 16px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+    --font_2: italic normal normal 46px/1.4em didot-w01-italic,didot-w05-italic,serif;
+    --font_3: normal normal normal 60px/1.4em didot-w01-italic,didot-w05-italic,serif;
+    --font_4: normal normal normal 46px/1.4em avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif;
+    --font_5: normal normal normal 36px/1.4em didot-w01-italic,didot-w05-italic,serif;
+    --font_6: normal normal normal 22px/1.4em didot-w01-italic,didot-w05-italic,serif;
+    --font_7: normal normal normal 20px/1.4em didot-w01-italic,didot-w05-italic,serif;
+    --font_8: normal normal normal 17px/1.4em brandon-grot-w01-light,brandon-grot-w05-light,sans-serif;
+    --font_9: normal normal normal 15px/1.4em avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif;
+    --font_10: normal normal normal 12px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+}
+
+@font-face {
+    font-family: DidotItalic;
+    src: url(./fonts/Didot/Didot\ LT\ Std\ Italic.otf);
+}
+@font-face {
+    font-family: DidotRegular;
+    src: url(./fonts/Didot/Didot\ Regular.ttf);
+}
+
+@font-face {
+    font-family: Avenir;
+    src: url(./fonts/Avenir/AvenirLTStd-Book.otf);
+}
+
+
+@font-face {
+    font-family: Brandon-light;
+    src: url(./fonts/Brandon-grotesque/Brandon_light.otf);
+}
+
+@font-face {
+    font-family: Din-Next;
+    src: url(./fonts/Din-Next/DINNextW1G-Light.otf);
+}
+
+@font-face {
+    font-family: Brandon;
+    src: url(./fonts/Brandon-grotesque/Brandon_reg.otf);
+}
