@@ -4,7 +4,7 @@ header {
     display: flex;
     flex-direction: column;
     position: fixed;
-    background-color: rgba(36, 42, 53, 0.5);
+    background-color: rgba(36, 42, 53, 0.6);
     border-bottom: 2.1px solid var(--color_16);
 }
 

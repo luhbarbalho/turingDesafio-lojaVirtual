@@ -95,6 +95,8 @@ video {
     box-sizing: border-box;
 }
 
+
+
 :root {
     --color_0: rgba(255, 255, 255, 0);
     --color_1: rgb(255,255,255);
@@ -161,12 +163,6 @@ video {
     src: url(./fonts/Avenir/AvenirLTStd-Book.otf);
 }
 
-
-@font-face {
-    font-family: Brandon-light;
-    src: url(./fonts/Brandon-grotesque/Brandon_light.otf);
-}
-
 @font-face {
     font-family: Din-Next;
     src: url(./fonts/Din-Next/DINNextW1G-Light.otf);
@@ -175,4 +171,14 @@ video {
 @font-face {
     font-family: Brandon;
     src: url(./fonts/Brandon-grotesque/Brandon_reg.otf);
+}
+
+@font-face {
+    font-family: Brandon-med;
+    src: url(./fonts/Brandon-grotesque/Brandon_med.otf);
+}
+
+@font-face {
+    font-family: Brandon-light;
+    src: url(./fonts/Brandon-grotesque/Brandon_light.otf);
 }
