@@ -1,0 +1,1 @@
+# turingDesafio-lojaVirtual
