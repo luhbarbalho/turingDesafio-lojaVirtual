@@ -1,0 +1,154 @@
+footer {
+    width: 100vw;
+    height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-image: linear-gradient(to bottom, rgba(36, 42, 53, 0.5), rgba(36, 42, 53, 0.6)),url(../assets/christmasFooter.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footerLeft {
+    width: 400px;
+    height: 360px;
+    margin-right: 50px;
+}
+
+.footerLeft h4 {
+    margin-bottom: 5px;
+    font-size: 40px;
+    color: var(--color_16);
+    font-family: 'DidotItalic';
+}
+
+.footerMenu {
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footerLeft p {
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-family: 'Brandon-light';
+    color: var(--color_16);
+    line-height: 22px;
+}
+
+
+.footerLink p:first-child {
+    margin-top: 30px;
+    text-decoration: underline;
+}
+
+
+.footerRight {
+    width: 450px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: flex-start;
+}
+
+/* ?FOOTER HELP FOLLOW *****************/
+
+.footerRightTop {
+    width: 450px;
+    height: 320px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 60px;
+    position: relative;
+    color: var(--color_16);
+}
+
+.footerRightTop h5 {
+    font-family: 'DidotItalic';
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.footerRightTop1 h5::after, .footerRightTop2 h5::after {
+    content:" ";
+    display: block;
+    height: 0.5px;
+    width: 180px;
+    position: absolute;
+    top: 12%;
+    background: var(--color_16);
+}
+
+.footerRightTop p {
+    font-family: 'Brandon-light';
+    font-size: 18px;
+}
+
+.footerRightTop1 {
+    height: 200px;
+    margin-right: 100px;
+}
+
+.footerRightTop2{
+    height: 200px;
+}
+
+/* ?FOOTER BUTTON *****************/
+
+.footerRightBottom {
+    height: 60px;
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.footerRightBottom input {
+    width: 300px;
+    height: 40px;
+    font-size: 10px;
+    padding-left: 17px;
+    border: 0.5px solid var(--color_20);
+}
+
+.footerRightBottom input::placeholder {
+    font-family: 'Brandon-light';
+    font-size: 15px;
+    color: var(--color_20);
+}
+
+.footerRightBottom input:hover {
+    border: 2px solid var(--color_20);
+}
+
+.footerRightBottom input:focus {
+    outline: none;
+    
+}
+
+.footerRightBottom button {
+    width: 130px;
+    height: 40px;
+    border: none;
+    color: var(--color_16);
+    background-color: var(--color_20);
+    font-family: 'Brandon-light';
+    font-size: 16.5px;
+    transition: linear 0.2s;
+}
+
+.footerRightBottom button:hover {
+    background-color: rgb(65,75,95);
+    opacity: 0.6;
+    transition: linear 0.25s;
+    cursor: pointer;
+}
+.footerRightBottom button:focus {
+    outline: none;
+}
